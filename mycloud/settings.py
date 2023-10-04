@@ -90,12 +90,12 @@ WSGI_APPLICATION = 'mycloud.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'cloud',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
-        'USER': 'postgres',
-        'PASSWORD': 'D123-v456-A789#',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'railway',
+        'HOST': 'roundhouse.proxy.rlwy.net',
+        'PORT': '54314',
+        'USER': 'root',
+        'PASSWORD': '9spmleya-0r2iqsc-a8od_ndmcwnammw',
     }
 }
 

@@ -8,7 +8,7 @@
     <link href="https://cdn.bootcdn.net/ajax/libs/mdb-ui-kit/3.9.0/mdb.min.css" rel="stylesheet">
     <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="{% static 'pan/css/common.css' %}" rel="stylesheet">
-    <title>главная страница - My Cloud</title>
+    <title>MyCloud</title>
     <style>
         #introCarousel,
         .carousel-inner,
@@ -18,14 +18,14 @@
         }
 
         .carousel-item:nth-child(1) {
-            background-image: url('{% static 'pan/image/mountain.jpg' %}');
+            background-image: url('{% static 'pan/image/fun.jpg' %}');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
         }
 
         .carousel-item:nth-child(2) {
-            background-image: url('{% static 'pan/image/lake.jpg' %}');
+            background-image: url('{% static 'pan/image/neon.jpg' %}');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
@@ -54,7 +54,7 @@
     <nav class="navbar navbar-dark" style="z-index: 20;">
         <div class="container-fluid align-items-center">
             <a class="navbar-brand nav-link" href="/">
-                <strong>Cloud</strong>
+                <strong>Storage</strong>
             </a>
             <div class="navbar-nav flex-row align-items-center ms-auto">
                 {% if user.is_authenticated %}
@@ -98,7 +98,7 @@
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div id="cloudBlock">{# загрузка файлов #}
-                            <h1 class="text-white mb-5 text-center">ЗНАКОМТЕСЬ С ОБЛАЧНЫМ ХРАНИЛИЩЕМ MyCLOUD</h1>
+                            <h1 class="text-white mb-5 text-center">Добро пожаловать в MyCLOUD. Здесь Ваши данные будут в безопасности</h1>
                             <div id="shareCard" class="card" style="display: none; width: 18rem">
                                 <div class="card-header">
                                     <i class="icon-link fas fa-times"></i>
@@ -145,7 +145,7 @@
                 <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
                     <div class="d-flex justify-content-center align-items-center h-100">
                         <div class="text-white text-center">
-                            <h2>ВСЕГДА СОХРАНЯЙ СМИРЕННОЕ СЕРДЦЕ. БУДЬ ВСЕГДА ПРАВ.</h2>
+                            <h2>Мы рады Вам</h2>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                     <div class="col-md-6 mb-4">
                         <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
                              data-mdb-ripple-color="light">
-                            <img src="{% static 'pan/image/coffee.jpg' %}" class="img-fluid" alt=""/>
+                            <img src="{% static 'pan/image/r.png' %}" class="img-fluid" alt=""/>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -266,7 +266,7 @@
                     <div class="col-md-6 mb-4 order-md-2 order-1">
                         <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
                              data-mdb-ripple-color="light">
-                            <img src="{% static 'pan/image/nature.jpg' %}" class="img-fluid" alt=""/>
+                            <img src="{% static 'pan/image/l.png' %}" class="img-fluid" alt=""/>
                         </div>
                     </div>
                 </div>
