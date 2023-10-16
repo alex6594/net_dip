@@ -165,6 +165,8 @@ CORS_ALLOWED_ORIGINS = [
 
 CSRF_TRUSTED_ORIGINS = [
     'https://netdipalex-production.up.railway.app',
+    'http://127.0.0.1:8000/login',
+    'http://127.0.0.1:8000',
 ]
 
 # Rest framework
