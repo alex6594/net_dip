@@ -1,5 +1,5 @@
 (function (global, factory) {
-    const domain = '0.0.0.0:8000', '::1'
+    const domain = '0.0.0.0:8000'
 
     global._config = factory(global.mdb)
     global._domain = domain
